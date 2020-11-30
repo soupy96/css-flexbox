@@ -159,8 +159,8 @@ input::-moz-focus-inner {
 /* Some default styles to make each box visible */
 .box {
   color: white;
-  /* font-size: 100px; */
-  font-size: 20px;
+  font-size: 100px;
+  /* font-size: 20px; */
   text-align: center;
   text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
   padding: 10px;
@@ -204,16 +204,41 @@ input::-moz-focus-inner {
   /* justify-content: flex-start; */
   /* justify-content: flex-end; */
   /* justify-content: center; */
-  justify-content: space-between;
+  /* justify-content: space-between; */
   /* justify-content: space-around; */
   border: 10px solid mistyrose;
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  height: 100vh;
   /* align-items: flex-start; */
+  /* align-items: flex-end; */
+  align-items: center;
+  /* align-items: baseline; */
+  /* align-items: stretch; */
   flex-direction: column;
 }
 
 .box {
   /* width: 33.333%; */
+}
+
+.box1 {
+  font-size: 30px;
+}
+
+.box3 {
+  font-size: 150px;
+}
+
+.box4 {
+  font-size: 200px;
+}
+
+.box5 {
+  font-size: 10px;
+}
+
+.box10 {
+  font-size: 77px;
 }
 
 .box2 {
